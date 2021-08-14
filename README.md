@@ -1,6 +1,6 @@
 # Encrypted-login-file-manager
 
-A simple CMD client and server architecture, having a server that manages files according to encrypted user login credentials remotely accessed by a client.
+A client and server architecture run on CMD, having a server that manages files according to encrypted user login credentials remotely accessed by a client.
 This project is not final, it was a simple project for a computer security course where we were tasked to create a small application that implements security principals.
 For the sake of simplicity and time constraints, the server and the client were implemented using the loopback interface despite the goal being a client communicating with an offsite server securly. SSL was configured using the loopback certificate.
 
