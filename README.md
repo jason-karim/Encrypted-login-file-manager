@@ -4,6 +4,8 @@ A simple CMD client and server architecture, having a server that manages files 
 This project is not final, it was a simple project for a computer security course where we were tasked to create a small application that implements security principals.
 For the sake of simplicity and time constraints (~2 days of continuous work), the server and the client were implemented using the loopback interface. SSL was configured using the loopback certificate.
 
+
+
 --DETAILS:
 
 I chose to implement the following security services among others:
@@ -13,6 +15,8 @@ I chose to implement the following security services among others:
 
 Both username and password are hashed and stored in the "[directory]\files\database.txt" file, files of a user are stored under the name of the hashed username.
 Usernames are hashed as to not trace back files to certain accounts, as well as adding security by requiring both a hashed password and a hashed username be compatible to allow access to user files.
+
+
 
 
 --HOW TO RUN:
@@ -33,6 +37,8 @@ To compile Client:
 
 To run the Client:
 	[Directory]code>java Client 127.0.0.1 2020
+
+
 
 
 --TO DEMONSTRATE SSL ENCRYPTION:
