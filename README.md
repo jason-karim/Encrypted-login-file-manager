@@ -22,7 +22,9 @@ Usernames are hashed as to not trace back files to certain accounts, as well as 
 --HOW TO RUN:
 
 !! CMD must be at the directory of the java files!!
+
 !! Testkey is the truststore containing the localhost certificate necessary for handshake, needs to be in same directory of codes!!
+
 !! User Files and database will be saved at the path specified in CMD command!!
 
 To compile Server:
