@@ -33,15 +33,15 @@ To compile Server:
 	
 	[Directory]\code>javac FileServer.java
 
-To initiate Server:
+To initiate Server:	java FileServer [port] [files directory (eg: D:\project\files)] [Encryption (TLS)] [Authentication required (True/false)]
 
-	[Directory]\code>java FileServer 2020 D:\Final GIN525\files TLS false
+	[Directory]\code>java FileServer 2020 [Directory]\files TLS false
 
 To compile Client:
 
 	[Directory]\code>javac Client.java
 
-To run the Client:
+To run the Client:	java Client [Server IP address] [port]
 
 	[Directory]\code>java Client 127.0.0.1 2020
 
