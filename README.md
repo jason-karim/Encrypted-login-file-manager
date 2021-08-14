@@ -2,7 +2,7 @@
 
 A simple CMD client and server architecture, having a server that manages files according to encrypted user login credentials remotely accessed by a client.
 This project is not final, it was a simple project for a computer security course where we were tasked to create a small application that implements security principals.
-For the sake of simplicity and time constraints (~2 days of continuous work), the server and the client were implemented using the loopback interface. SSL was configured using the loopback certificate.
+For the sake of simplicity and time constraints, the server and the client were implemented using the loopback interface despite the goal being a client communicating with an offsite server securly. SSL was configured using the loopback certificate.
 
 
 
