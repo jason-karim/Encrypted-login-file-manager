@@ -29,16 +29,17 @@ Usernames are hashed as to not trace back files to certain accounts, as well as 
 
 To compile Server:
 	[Directory]\code>javac ClassServer.java
+	
 	[Directory]\code>javac FileServer.java
 
 To initiate Server:
-	[Directory]code>java FileServer 2020 D:\Final GIN525\files TLS false
+	[Directory]\code>java FileServer 2020 D:\Final GIN525\files TLS false
 
 To compile Client:
-	[Directory]code>javac Client.java
+	[Directory]\code>javac Client.java
 
 To run the Client:
-	[Directory]code>java Client 127.0.0.1 2020
+	[Directory]\code>java Client 127.0.0.1 2020
 
 
 
