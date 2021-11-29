@@ -44,7 +44,10 @@ To compile Client:
 To run the Client:	java Client [Server IP address] [port]
 
 	[Directory]\code>java Client 127.0.0.1 2020
+	
+if client not working, try:
 
+	[Directory]\code>start java -Djavax.net.ssl.trustStore=testkeys Client 127.0.0.1 2020
 
 
 
